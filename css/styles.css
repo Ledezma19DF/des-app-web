@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+     background-color: rgb(127, 127, 127) !important;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* 🕷️ MENÚ SUPERIOR (Azul Spider-Man) */
+header {
+    background: #001d66; /* Azul profundo */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 4px solid #e60000; /* Línea roja */
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /* Para que no se amontonen en el celular */
+    gap: 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #ff4d4d;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+    padding-top: 140px; /* Espacio para que el menú no tape el contenido */
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #e60000; /* Rojo Spider-Man */
+    border-bottom: 2px solid #001d66;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+/* 🕸️ TARJETAS DE PROYECTOS (Articles) */
+#portafolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portafolio article {
+    background: #f9f9f9;
+    margin: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    border-top: 5px solid #e60000;
+    border-bottom: 5px solid #001d66;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.3s;
+}
+
+#portafolio article:hover {
+    transform: translateY(-10px);
+}
+
+#portafolio img {
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    width: 100%; /* Imagen ajustada a la tarjeta */
+    height: auto;
+}
+
+#portafolio article h3 {
+    color: #001d66;
+    font-size: 1.1rem;
+}
+
+#portafolio article a {
+    text-decoration: none;
+    color: #e60000;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* LISTA DE EDUCACIÓN */
+#FormaciónAcadémica ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#FormaciónAcadémica li {
+    background: #fff;
+    border-left: 5px solid #e60000;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+    background: #e60000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+</header>
+}
